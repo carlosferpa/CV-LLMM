@@ -1,0 +1,122 @@
+.header{
+    background: #508991;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    height: 300px;
+}
+
+.header .content{
+    width: 50%;
+    height: 50%;
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    left: 5%;
+    top: 10%;
+}
+
+.header .content .p-1{
+    color: aliceblue;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+}
+
+.header .content .p-2{
+    color: aliceblue;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+}
+
+.header .img{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.header .img img{
+    width: 250px;
+    height: 250px;
+}
+
+.info{
+    width: 80%;
+    height: auto;
+    background: #508991;
+    margin: 1% auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.info .tituloseccion{
+    color: aliceblue;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: xx-large;
+    border-bottom: 2px #FFF8F0 solid;
+
+}
+
+.info .tituloinfo{
+    color: aliceblue;
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+    margin-left: 20px;
+    display: inline;
+    margin-right: 20px;
+}
+
+.info .titulodato{
+    color: aliceblue;
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+    display: inline;
+}
+
+.footer{
+    width: 100%;
+    height: auto;
+    background: #508991;
+}
+
+.footer .img{
+    position: relative;
+    left: 5%;
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.footer img{
+    width: 50px;
+    height: 50px;
+}
+
+.menu{
+    list-style: none;
+    padding: 10px;
+    background: #092327;
+ }
+  
+
+.menu li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10px;
+}
+
+.menu li {
+    display:inline-block;
+    text-align: center;
+}
+
+.menu li a:hover{
+    background: #508991;
+}
